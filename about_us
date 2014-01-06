@@ -1,0 +1,113 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>goPicsell | About Us</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="app.js"></script>
+    <script src="js/modernizr.js"></script>
+   
+  </head>
+  <body>
+    <header>
+  <div class="max_width_wrapper">
+    <h1><a href="/"><img src="images/picsell_logo.png" alt="picSell" width="180"/></a></h1>
+    <span class="hamburger_menu"> MENU </span>
+    <nav id="uppernav">
+      <ul>
+        <li> FAQ </li>
+        <li> Get Started </li>
+      </ul>
+    </nav>
+    <nav id="social_media">
+      <ul>
+        <li><img src="images/facebook.png" height="25" width="25"/></li>
+        <li><img src="images/twitter.png" height="25" width="25"/></li>
+        <li><img src="images/pinterest.png" height="25" width="25"/></li>
+        <li><img src="images/google-plus.png" height="25" width="25"/></li>
+        <li><img src="images/email.png" height="25" width="25"/></li>
+      </ul>
+    </nav>
+    <nav id="lowernav">
+      <ul>
+        <li class="go_to"> <a href="#"> CONTACT </a> </li>
+        <li class="go_to"> <a href="#"> WHAT WE'VE SOLD </a> </li>
+        <li class="go_to"> <a href="#"> ABOUT </a> </li>
+        <li class="go_to"> <a href="#"> HOME </a> </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<body id="index" class="home">
+  <div id="dropdown_menu">
+    <nav id="dropdown_nav">
+      <ul>
+        <li> <a href="#"> HOME </a> </li>
+        <li> <a href="#"> GET STARTED </a></li>
+        <li> <a href="#"> FAQ </a></li>
+        <li> <a href="#"> ABOUT </a> </li>
+        <li> <a href="#"> WHAT WE'VE SOLD </a> </li>
+        <li> <a href="#"> CONTACT </a> </li>
+      </ul>
+    </nav>    
+  </div>
+  
+<section class="content_area top_space">
+  
+</section>
+
+  <section id="notifyme">
+    <div class="max_width_wrapper">
+      <h1> Have something you want to sell? </h1>
+      <a href="#"><h2 class="green_button"> Get Started </h2></a>
+    </div>
+  </section>
+  <footer>
+    <div class="max_width_wrapper">
+      <nav id="social_media">
+        <ul>
+          <li class='title'> Connect </li>
+          <li class='icon'><img src="images/facebook.png" height="32" width="32"/></li>
+          <li class='icon'><img src="images/twitter.png" height="32" width="32"/></li>
+          <li class='icon'><img src="images/pinterest.png" height="32" width="32"/></li>
+          <li class='icon'><img src="images/google-plus.png" height="32" width="32"/></li>
+          <li class='icon'><img src="images/email.png" height="32" width="32"/></li>
+        </ul>
+      </nav>
+      <ul id="contact_details">
+        <li> <b>Address</b>: 175 Varick Street -- New York, NY 10014 </li>
+        <li> <b> Phone </b>: 212-628-8000</li>
+        <li> <b>Email</b>: sales@gopicsell.com</li>     
+      </ul>
+      <ul id="selling">
+        <li> Portfolio </li>
+        <li> Get Started </li>
+        <li> Guidelines </li>
+      </ul>
+      <ul id="support">
+        <li> FAQs </li>
+        <li> Terms & Conditions </li>
+        <li> Privacy Policy </li>
+      </ul>
+    </div>
+  </footer>
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <script>
+if($('html').hasClass('no-touch')){
+  $('.item_feature').hover(function(){
+    $(this).siblings().addClass('fade');
+  }, function(){
+    $(this).siblings().removeClass('fade');
+  });
+}
+</script>
+  </body>
+</html>
