@@ -5340,6 +5340,12 @@ kbd {
 
 /***************My Styles********************/
 
+  /*.flap {
+    background-image: url("../images/flap.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }*/
+
 /**********The following code styles the google map*********/
 /*
 #map_canvas{
@@ -5361,7 +5367,7 @@ kbd {
 
 .content_area{
   padding-top: 40px;
-  background: #fff;
+  background-color: #EBEFF2;
 }
 
 .content_area h2{
@@ -5520,7 +5526,7 @@ dd{
 .icon_box {
   font-size: 4.375em;
   float: left;
-  color: #CC626F;
+  color: #3A90D7;
 }
 
   .icon_box:hover {
@@ -5542,7 +5548,7 @@ dd{
 }
 
 .about_2 .sec_1, .about_3 .sec_2 {
-  background: #3d516a;
+  background: #3A90D7;
   height: 300px;
 }
 
@@ -5553,8 +5559,8 @@ dd{
 /*Divide*/
 
 .about_divide {
-  min-height: 400px;
-  background: #3d516a;
+  min-height: 300px;
+  background: #3A90D7;
 }
 
 /********************Submit form styles*******************/
@@ -5656,7 +5662,7 @@ border-radius: 4px;
 
 /***********Changes Sub-Footer Color. Doing it here because the original code is somewhere in the original designer's style sheet. Not gonna touch that******/
 #notifyme {
-  background: #EFEDF5;
+  background: #fff;
 }
 
 .full_width {
