@@ -36,7 +36,7 @@ header{
 	z-index: 1000;
 	background: #fff;
 	width: 100%;
-	background: #3E5169;
+	background: #348eda;
 }
 
 .hamburger_menu{
@@ -99,7 +99,7 @@ header nav#lowernav ul li{
 	padding-left: 10px;
 	padding-right: 10px;
 	text-decoration: none;
-	color: #cccccc;
+	color: #fff;
 }
 header nav#lowernav ul li.current{
 	color: #fff;
@@ -148,7 +148,7 @@ body{
 	position: relative;
 	height: 500px;
 	background-color: #dddddd;
-	background-image: url('images/stock_photo.jpg');
+	background-image: url('images/homepage_3.jpg');
 	background-size: 100% auto;
 	background-position: 0 30%;
 	background-repeat: no-repeat; 
@@ -212,13 +212,13 @@ body{
 
 #steps{
 	padding-bottom: 40px;
-	background-color: #EBEFF2;
+	background-color: #f3f5f7;
 }
 
 #steps h1{
 	text-align: center;
 	margin-top: 0;
-	padding-top: 20px;
+	padding-top: 80px;
 	color: #ffffff;
 }
 
@@ -583,7 +583,7 @@ h2.green_button{
 
 footer{
 	color: #EBEFF2;
-	background: #3d516a;
+	background: #348eda;
 	overflow: hidden;
 }
 
@@ -630,6 +630,10 @@ footer span{
 	padding: 50px 0;
 	float: right;
 	margin-right: 75px;
+}
+
+footer a{
+	color: #fff;
 }
 
 @media all and (max-width: 568px){
@@ -945,3 +949,4 @@ footer span{
 	}
 
 }
+
