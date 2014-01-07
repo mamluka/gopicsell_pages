@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'ProximaNova-Regular';
-	src: url('fonts/ProximaNova-Regular.otf');
+	src: url('../fonts/ProximaNova-Regular.otf');
 }
 @font-face {
 	font-family: 'ProximaNova-Semibold';
-	src: url('fonts/ProximaNova-Semibold.otf');
+	src: url('../fonts/ProximaNova-Semibold.otf');
 }
 
 html{
@@ -26,7 +26,7 @@ header, #banner, #steps, #getstarted, #items, #whyus, #customers, #notifyme, foo
 	min-width: 1280px;
 }
 	.flap {
-		background-image: url("images/flap.png");
+		background-image: url("../images/flap.png");
 		background-size: 100% auto;
 		background-repeat: no-repeat;
 	}
@@ -106,6 +106,9 @@ header nav#lowernav ul li{
 	text-decoration: none;
 	color: #fff;
 }
+header nav#lowernav ul li a:hover{
+    color: rgb(141, 235, 201);
+}
 header nav#lowernav ul li.current{
 	color: #fff;
 	border-bottom: 3px solid #333;
@@ -154,7 +157,7 @@ body{
 	position: relative;
 	height: 450px;
 	background-color: #3997e6;
-	background-image: url('images/header_bg.png');
+	background-image: url('../images/header_bg.png');
 	/*background-size: 100% auto;*/
 	background-position: right bottom;
 	background-repeat: no-repeat; 
@@ -243,7 +246,7 @@ body{
 }
 
 #steps ul{
-	list-style-image: url('images/checkmark_bullet.png');
+	list-style-image: url('../images/checkmark_bullet.png');
 	font-size: 1.2em;
 	margin: 0 0 0 0;
 	overflow: hidden;
@@ -310,13 +313,13 @@ body{
 	/*background: #cccccc;*/
 }
 	.first_wrap{
-		background: url("images/Gidon-Coussin.jpg");
+		background: url("../images/Gidon-Coussin.jpg");
 		background-position: -30px -30px;
 	}
 
 
 		.third_wrap{
-		background: url("images/avi-cohen.jpeg");
+		background: url("../images/avi-cohen.jpeg");
 		background-position: -90px -30px;
 	}
 
@@ -380,11 +383,11 @@ body{
 }
 #leftControl {
   left:0;
-  background:transparent url(images/scroll_active.png) no-repeat 0 0;
+  background:transparent url(../images/scroll_active.png) no-repeat 0 0;
 }
 #rightControl {
   right:0;
-  background:transparent url(images/scroll_right_active.png) no-repeat 0 0;
+  background:transparent url(../images/scroll_right_active.png) no-repeat 0 0;
 }
 
 #items #justsold li.item_feature{
@@ -984,4 +987,9 @@ footer a{
 		margin-left: 10px;
 	}
 
+}
+
+.question {
+    position: relative;
+    top:-5000px;
 }
