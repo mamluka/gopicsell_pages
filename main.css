@@ -585,6 +585,7 @@ footer{
 	color: #EBEFF2;
 	background: #3d516a;
 	overflow: hidden;
+	height: 150px;
 }
 
 footer #social_media ul{
