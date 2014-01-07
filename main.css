@@ -25,6 +25,11 @@ html{
 header, #banner, #steps, #getstarted, #items, #whyus, #customers, #notifyme, footer{
 	min-width: 1280px;
 }
+	.flap {
+		background-image: url("images/flap.png");
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+	}
 
 header{
 	color: #ffffff;
@@ -57,17 +62,17 @@ header.small h1 {
 header nav#uppernav ul{
 	list-style: none;
 	top: 0;
-	right: 130px;
+	right: 185px;
 	position: absolute;
 	margin-top: 0;
 }
 header nav#uppernav ul li{
-	background: #fff;
-	color: #3E5169;
-	padding: 10px 20px;
+	background: #0f437f;
+	color: #fff;
+	padding: 5px 10px;
 	float: left;
-	margin: 0 0 0 20px;
-	font-size: 1.2em;
+	margin: 0 0 0 10px;
+	font-size: 1em;
 	-webkit-border-bottom-left-radius: 5px;
 	-moz-border-bottom-left-radius: 5px;
 	border-bottom-left-radius: 5px;
@@ -114,13 +119,14 @@ header a{
 #social_media ul{
 	list-style: none;
 	float: right;
-	margin-top: 55px;
-	margin-right: 182px;
+	margin-top: 37px;
+	margin-right: 202px;
 }
 
 #social_media ul li{
 	float: left;
 	margin-left: 10px;
+	font-size: 1.786em;
 }
 
 #dropdown_menu{
@@ -144,27 +150,27 @@ body{
 }
 
 #banner{
-	margin-top: 95px;
+	margin-top: 90px;
 	position: relative;
-	height: 500px;
-	background-color: #dddddd;
-	background-image: url('images/homepage_3.jpg');
-	background-size: 100% auto;
-	background-position: 0 30%;
+	height: 450px;
+	background-color: #3997e6;
+	background-image: url('images/header_bg.png');
+	/*background-size: 100% auto;*/
+	background-position: right bottom;
 	background-repeat: no-repeat; 
 }
 #banner h1{
-	padding-top: 50px;
-	font-size: 3.5em;
-	text-align: center;
-	color: #3d516a;
+	padding-top: 120px;
+	font-size: 3.8em;
+	/*text-align: center;*/
+	color: #fff;
 	font-family: 'ProximaNova-Semibold', sans-serif;	
 }
 
 #bannernav{
 	text-align: center;
 	box-sizing: border-box;
-	margin-left: calc(50% - 190px);
+	/*margin-left: calc(50% - 190px);*/
 }
 
 #bannernav ul{
@@ -281,7 +287,7 @@ body{
 }
 
 #getstarted .green_button{
-	background: #CC626F;
+	background: #D73A6A;
 	color: #ffffff;
 	font-size: 1.428em;
 	text-align: center;
@@ -301,8 +307,19 @@ body{
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
-	background: #cccccc;
+	/*background: #cccccc;*/
 }
+	.first_wrap{
+		background: url("images/Gidon-Coussin.jpg");
+		background-position: -30px -30px;
+	}
+
+
+		.third_wrap{
+		background: url("images/avi-cohen.jpeg");
+		background-position: -90px -30px;
+	}
+
 
 .circular_wrapper.current_page{
 	background: #2496dc;
@@ -409,7 +426,7 @@ li.first{
 }
 
 #items h2.green_button{
-	background: #CC626F;
+	background: #D73A6A;
 	font-size: 1.428em;
 	text-align: center;
 	box-sizing: border-box;
@@ -419,6 +436,7 @@ li.first{
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	margin-left: 545px;
+	margin-top: 80px;
 	color: #fff;
 }
 
@@ -552,7 +570,7 @@ li.first{
 	padding: 50px 0px;
 	font-size: 2.5em;
 	margin: 0 0 0 50px;
-	font-weight: 100;
+	/*font-weight: 100;*/
 }
 
 #notifyme a, #items a{
@@ -561,7 +579,7 @@ li.first{
 }
 
 h2.green_button{
-	background: #CC626F;
+	background: #D73A6A;
 	color: #fff;
 	font-size: 1.5em;
 	width: 140px;	
@@ -601,6 +619,13 @@ footer #social_media ul li{
 	margin-top: 0;
 }
 
+/*styles the social buttons in footer*/
+
+.s_button {
+	font-size: 2em;
+}
+
+
 footer ul#contact_details, footer ul#selling, footer ul#support{
 	float: left;
 	list-style: none;
@@ -637,6 +662,10 @@ footer a{
 	color: #fff;
 }
 
+#getstarted a{
+	color: #fff;
+}
+
 @media all and (max-width: 568px){
 
 	html{
@@ -645,6 +674,12 @@ footer a{
 
 	header, #banner, #steps, #items, #getstarted, #whyus, #customers, #notifyme, footer{
 		min-width: 0;
+	}
+
+	.flap {
+		background-image: url("images/steps.png");
+		background-size: 100% auto;
+		background-repeat: no-repeat;
 	}
 
 	.max_width_wrapper{
@@ -950,4 +985,3 @@ footer a{
 	}
 
 }
-

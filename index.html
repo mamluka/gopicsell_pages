@@ -28,11 +28,11 @@
     </nav>
     <nav id="social_media">
       <ul>
-        <li><img src="images/facebook.png" height="25" width="25"/></li>
-        <li><img src="images/twitter.png" height="25" width="25"/></li>
-        <li><img src="images/pinterest.png" height="25" width="25"/></li>
-        <li><img src="images/google-plus.png" height="25" width="25"/></li>
-        <li><img src="images/email.png" height="25" width="25"/></li>
+        <li><i class="fi-social-facebook"></i></li>
+        <li><i class="fi-social-twitter"></i></li>
+        <li><i class="fi-social-pinterest"></i></li>
+        <li><i class="fi-social-google-plus"></i></li>
+        <li></li>
       </ul>
     </nav>
     <nav id="lowernav">
@@ -50,32 +50,36 @@
     <nav id="dropdown_nav">
       <ul>
         <li> <a href="#"> HOME </a> </li>
-        <li> <a href="#"> GET STARTED </a></li>
-        <li> <a href="#"> FAQ </a></li>
-        <li> <a href="#"> ABOUT </a> </li>
-        <li> <a href="#"> WHAT WE'VE SOLD </a> </li>
-        <li> <a href="#"> CONTACT </a> </li>
+        <li> <a href="submit.html"> GET STARTED </a></li>
+        <li> <a href="faq.html"> FAQ </a></li>
+        <li> <a href="about_us.html"> ABOUT </a> </li>
+        <li> <a href="recent_sold.html"> WHAT WE'VE SOLD </a> </li>
+        <li> <a href="contact_us.html"> CONTACT </a> </li>
       </ul>
     </nav>    
   </div>
         <section id="banner">
                 <div class="max_width_wrapper">
-                        <h1> Sell your stuff in a snap </h1>
+                    <div class="row full_width">
+                        <div class="large-11 columns large-offset-1">
+                        <h1 class="text-left"> Sell your stuff in a snap </h1>
                         <nav id="bannernav">
                                 <ul>
                                         <li class="getstarted"> Get Started </li>
                                         <li class="appstore"> <img src="images/app_store_coming_soon.png"/></li>
                                 </ul>
                         </nav>
+                        </div>
+                    </div>
 <!--                 <img src="images/iPhone_on_side.png" id="iphone_on_side"/> -->
                 </div>
         </section>
-        <section id="steps">
+        <section id="steps" class="flap">
                 <div class="max_width_wrapper">
 
                         
 
-                        <h1> <img src="images/new_phones.png" width="1100"/></h1>
+                        <h1> <img src="images/phones.png" width="1100"/></h1>
                         <div id="steps_wrapper">
                         <div class="row step_points full_width">
                             <div class="large-4 columns points">
@@ -95,7 +99,7 @@
         </section>
         <section id="getstarted">
                 <div class="max_width_wrapper">
-                        <h2 class="green_button"> Get Started </h2>
+                        <h2 class="green_button"><a href="submit.html"> Get Started </a></h2>
                 </div>
         </section>
         <section id="items">
@@ -206,7 +210,7 @@
                                                 <p> I got $400 for my computer and $220 for my old phone. I was amazed </p>
                                                 <div class="arrow-down"></div>
                                         </div>
-                                        <div class="circular_wrapper"></div>
+                                        <div class="circular_wrapper first_wrap"></div>
                                         <h3> Gidon C. </h3>
                                 </li>
                                 <li>
@@ -214,16 +218,16 @@
                                                 <p>I had tons of stuff lying around that I did not have time to throw out or sell online, so picSell was a no brainer.</p>
                                                 <div class="arrow-down"></div>
                                         </div>
-                                        <div class="circular_wrapper"></div>
-                                        <h3> Isabelle </h3>
+                                        <div class="circular_wrapper second_wrap"></div>
+                                        <h3> Anne Sachs </h3>
                                 </li>
                                 <li>
                                         <div class="quote_wrapper">
                                                 <p> After renovating our kitchen, I was left with an expensive faucet I could not return. I emailed picSell and after 10 days it sold for $700.</p>
                                                 <div class="arrow-down"></div>
                                         </div>
-                                        <div class="circular_wrapper"></div>
-                                        <h3> Alper</h3>
+                                        <div class="circular_wrapper third_wrap"></div>
+                                        <h3> Avi C.</h3>
                                 </li>                                                                
                         </ul>
                 </div>
@@ -234,16 +238,15 @@
       <a href="submit.html"><h2 class="green_button"> Get Started </h2></a>
     </div>
   </section>
-  <footer>
+  <footer class="flap">
     <div class="max_width_wrapper">
       <nav id="social_media">
         <ul>
-          <li class='title'> Connect </li>
-          <li class='icon'><img src="images/facebook.png" height="32" width="32"/></li>
-          <li class='icon'><img src="images/twitter.png" height="32" width="32"/></li>
-          <li class='icon'><img src="images/pinterest.png" height="32" width="32"/></li>
-          <li class='icon'><img src="images/google-plus.png" height="32" width="32"/></li>
-          <li class='icon'><img src="images/email.png" height="32" width="32"/></li>
+          <li class='title'> Stay Connected </li>
+        <li><i class="fi-social-facebook s_button"></i></li>
+        <li><i class="fi-social-twitter s_button"></i></li>
+        <li><i class="fi-social-pinterest s_button"></i></li>
+        <li><i class="fi-social-google-plus s_button"></i></li>
         </ul>
       </nav>
       <ul id="contact_details">
@@ -253,7 +256,8 @@
       </ul>
       <ul id="selling">
         <li> <a href="recent_sold.html">Recent Sales</a> </li>
-        <li> <a href="submit.html">Get Started</a> </li>
+        <li> <a href="submit.html">Testimonials</a> </li>
+        <li>Guidelines</li>
       </ul>
       <ul id="support">
         <li> <a href="faq.html">FAQs</a> </li>
