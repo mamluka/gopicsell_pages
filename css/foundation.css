@@ -5678,8 +5678,24 @@ border-radius: 4px;
     background: #EFEDF5 !important;
   }
 
+/***************mains additions*************/
 
+.points {
+  padding: 0 60px 0 80px;
+}
 
+.step_points p {
+  font-family: "adelle",Georgia,"Times New Roman",Times,serif;
+  font-size: 1.375em;
+  line-height: 1.6em;
+
+}
+
+.step_points h3{
+  font-size: 1.875em;
+  font-weight: 600;
+  color: #474a54;
+}
 
 
 @media only screen and (max-width: 40em) {
